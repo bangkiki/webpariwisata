@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+}
+.ftco-navbar-light .scrolled.sleep {
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+.ftco-navbar-light.scrolled.awake {
+    margin-top: 0px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+.ftco-navbar-light.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: -130px;
+    background: #fff !important;
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+.ftco-navbar-light {
+    background: transparent !important;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: none;
+}
+.top {
+	background-image: url('asset/pr.jfif');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
+header {
+	text-align: center;
+	background-color: none;
+	color: #fff;
+	padding: 20px;
+}
+hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit; }
+hero-wrap overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0;
+    background: #2ebdc4;
+    background: -moz-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #2ebdc4), color-stop(100%, #68e5b2));
+    background: -webkit-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -o-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -ms-linear-gradient(-45deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -webkit-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+    background: -o-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+    background: linear-gradient(135deg, #2ebdc4 0%, #68e5b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebdc4', endColorstr='#68e5b2', GradientType=1 ); }
+h1.mb-3{
+	color: white;
+	font-size: 80px;
+	font-weight:800;
+}
+.lokasi{
+    position: relative;
+    margin-top: 70px;
+}
+.judul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 40 px;
+    transform: translate(20px, -50%);
+    background: #fff;
+    width: max-content;
+    padding: 8px 16px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 20%);
+	
+}
+.judul h2{
+	color:black;
+}
+
+.semua-lokasi{
+    background: #fff;
+    width: 100%;
+    padding: 55px 20px 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.semua-lokasi div{
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #000;
+}
+.semua-lokasi img{
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+.semua-lokasi div:hover img{
+    opacity: 0.6;
+}
+.semua-lokasi h3{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.semua-lokasi p{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.semua-lokasi span{
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 0);
+    border: 1px solid #fff;
+    padding: 1px 3px;
+    font-weight: 500;
+    opacity: 0;
+    font-size: .9em;
+    transition: all 0.1s ease-in-out;
+}
+.semua-lokasi div:hover span{
+    opacity: 1;
+    bottom: 10px;
+}
+
+slider-text bread {
+    font-weight: 700 !important; }
+
+ftco-navbar-light {
+  background: transparent ;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3; }
+ 
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	top: 10 px;
+	
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+a.navbar-brand {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	color: white;
+	margin: 20px 0;
+	text:bold;
+}
+
+section {
+	margin: 40px 0;
+	color: white;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  display: block; 
+  }
+ 
+ h2.ftco-heading-2 {
+	font-size: 25px;
+ }
+p {
+  
+    font-weight: 700;
+}
+
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+
+
+.ftco-animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+span .icon-twitter{
+	 color: rgb(0, 110, 255);
+}
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem !important;
+}
+.pt-2, .py-2 {
+    padding-top: 0.5rem !important;
+}
+.d-block {
+    display: block !important;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
